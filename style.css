@@ -28,12 +28,12 @@ body {
   gap: 1%;
 }
 #loader h3 {
-  font-size: 10px;
+  font-size: 2rem;
   font-weight: 200;
 }
 #cursor {
-  width: 50px; /* Set cursor size */
-  height: 50px;
+  width: 90px; /* Set cursor size */
+  height: 90px;
   position: absolute;
   top: 0;
   left: 0;
@@ -47,7 +47,7 @@ body {
   z-index: 1;
 }
 #cursor h3 {
-  font-size: 6px;
+  font-size: .9rem;
 }
 #page1 {
   width: 100%;

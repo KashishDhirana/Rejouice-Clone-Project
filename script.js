@@ -113,9 +113,9 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var tl = gsap.timeline();
-tl.from("#loader h3", { x: 250, opacity: 0, duration: 1, stagger: 0.1 });
-tl.to("#loader h3", { x: -250, opacity: 0, duration: 1, stagger: 0.1 });
+tl.from("#loader h3", { x: 50, opacity: 0, duration: .5, stagger: 0.1 });
+tl.to("#loader h3", { x: -50, opacity: 0, duration: .8, stagger: 0.1 });
 
 var loader = gsap.timeline();
-tl.to("#loader", { opacity: 0, duration: 1.5 });
+tl.to("#loader", { opacity: 0, duration: 1 });
 tl.to("#loader", { display: "none" });
